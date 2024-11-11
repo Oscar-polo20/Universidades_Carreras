@@ -1,0 +1,572 @@
+#IntroT {
+    color: #fd4800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+header h1{
+    color: rgb(78, 14, 226);
+    border: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* body{
+    background-color: red;
+  
+} */
+
+
+/* Aqui luego revisar y acomodar */
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.inicio p {
+    padding: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(125, 218, 213);
+    border-radius: 9px;
+    
+} 
+
+
+
+
+
+h2{
+    color: rgb(5, 8, 5);
+    border: 30px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 720px;
+}
+.uam{
+    color: rgb(12, 23, 87);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.unam{
+    color: rgb(175, 172, 2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.ipn{
+    color: firebrick;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.nosequeponeraqui{
+    border: 1px solid #000;
+    padding: 2%;
+    width: 300px;
+    text-align: right;
+
+}
+
+.text-resert{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+  }
+
+#map {
+    height: 100vh;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#mapa-container{
+    overflow: hidden;
+}
+.info-box {
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+  .grid-template-column-3-4 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+  }
+  .input {
+    display: flex;
+    width: 100%;
+    height: 2rem;
+  }
+  
+  .bg-gray {
+    background-color: rgb(207, 228, 247);
+    padding: 2.5rem;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .clear-btn {
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    transform: translateY(-60%);
+    cursor: pointer;
+    font-size: 14px;
+    color:#000;
+    border: 1px solid #ccc;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    display: none; 
+}
+#place-input:not(:placeholder-shown) + .clear-btn {
+    display: block; 
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+  
+.py-1 {
+    padding: .5rem 0;
+}
+  
+nav ul{
+    margin-top: 0%;
+}
+
+p{
+    margin-top: auto;
+}
+
+
+header nav {
+    padding: 1.7em;
+    background-color: rgb(0, 0, 0);
+    /* -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 10px; */
+    color: whitesmoke;
+}
+
+header nav li a{
+    color:whitesmoke;
+
+}
+
+
+footer {
+    padding: 2.5em;
+    background-color: rgb(0, 0, 0);
+    /* -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 20px; */
+    color: whitesmoke;
+}
+
+
+nav li {
+   display: inline-block;
+   padding: 1em;
+}
+
+
+nav p{
+    border: 1px solid #000;
+    padding: 15px;
+    width: 300px;
+    text-align: left;
+}
+
+
+
+.inicio p{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.orienta{
+ 
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+
+}
+
+.buscar{
+    background-color: rgb(65, 195, 204);
+    border: rgb(88, 219, 12) 8px outset;
+    margin: 0 auto;   /*esta cosa lo alinea */
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.orienta p{
+    background-color: rgb(202, 234, 247);
+    border: 5px solid #000;
+    margin: 0 auto;   /*esta cosa lo alinea */
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.orienta h3{
+    color: rgb(12, 71, 4);
+}
+
+/* .COMOUAM #entrarUAM{
+    padding: 5rem;
+    margin: 1%;
+} */
+
+.logos{
+    text-align: center;
+    margin-top: 5%;   
+  
+}
+
+.logos a{
+    margin: 50px;
+    display: inline-block;
+
+}
+
+.logos imag{
+    width: 200px;
+    height: auto;
+    
+}
+
+.logo-a:hover img {
+    opacity: 0.7; /* Opaque la imagen al pasar el mouse */
+}
+
+.logo-a::after {
+    content: 'xd'; /* Usa el texto del atributo alt como contenido */
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* Evita interferencias con clics */
+}
+
+.logo-a:hover::after {
+    opacity: 1; /* Muestra el texto al pasar el mouse */
+}
+
+#ipn img{
+    position: relative;
+    top: -15px;
+    right: 5%;
+    width: 110%; 
+    height: auto; 
+}
+
+
+/* detalle */
+
+/* Contenedor principal que contiene todos los cuadros */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 20px;
+
+}
+
+
+/* Cuadro de la izquierda */
+.left-side {
+    width: 35%; /* Ajusta según tu preferencia */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre los elementos */
+
+
+    /* overflow: auto; esto hace que paresca una barra dentro de un contenedor */
+    
+}
+
+/* Cuadro de la derecha */
+.right-side {
+    width: 60%; /* Ajusta según tu preferencia */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+  
+
+}
+
+/* Asegura que cada cuadro ocupe el 100% de su contenedor */
+/* nav  {
+    width: 90%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center; 
+} */
+
+/* Estilos específicos para los cuadros */
+#InformacionCAR, #Ingreso, #Egresado, #Ubic, #Dura, #P24, #P23, #MetIng, #LinkInfo{
+    border: 1px solid #032455;  
+    background-color: #f9f9f9;
+    
+}
+
+
+
+
+/* Alinear los cuadros de la izquierda */
+.left-side nav {
+    margin-bottom: 20px;
+    padding: 25px;
+    
+}
+
+/* Alinear los cuadros de la derecha */
+.right-side nav {
+    margin-bottom: 20px;
+    margin: 0 auto;
+    padding: 25px;
+    width: 89%; 
+}
+#Egresado h3{
+    text-align: center;
+}
+
+#Ingreso h3{
+    text-align: center;
+}
+#InformacionCAR h3{
+    text-align: center;
+}
+
+#InformacionCAR p{
+    text-align: justify;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+#Ingreso p{
+    margin: 0 auto;
+    width: 90%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+#Egresado p{
+    text-align: justify;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Dura p{
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Alta p{
+    background-color: rgb(248, 0, 0); 
+    padding: 11px;
+    margin: 0 auto; 
+    border-radius: 5px; 
+    text-align: center;
+    width: 60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    color: rgb(255, 196, 2);
+
+}
+
+#P24 p{
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#P23 p{
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#MetIng p{
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#LinkInfo p{
+    text-align: center;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#Ubic{
+    font-weight: bold;
+}
+#Ubic p{
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.TituloCarr{
+    margin-top: 40px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    
+}
+
+.main-content {
+    margin: 20px; /* Espacio para separar el contenido del encabezado */
+}
+
+.main-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-content li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-content a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main-content a:hover {
+    background-color: #0056b3;
+}
+
+.form-container-filtro {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.logosUni {
+    position: absolute; /* Posición absoluta para mantenerlo fijo */
+    top: 160px; /* Ajusta la distancia desde la parte superior */
+    left: 145px; /* Ajusta la distancia desde el lado izquierdo */
+    width: 120px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin: auto;
+
+}
+
+.logosUniIPN {
+    position: absolute; /* Posición absoluta para mantenerlo fijo */
+    top: 160px; /* Ajusta la distancia desde la parte superior */
+    left: 140px; /* Ajusta la distancia desde el lado izquierdo */
+    width: 160px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin: auto;
+
+}
+
+.logosUniUAM {
+    position: absolute; /* Posición absoluta para mantenerlo fijo */
+    top: 140px; /* Ajusta la distancia desde la parte superior */
+    left: 145px; /* Ajusta la distancia desde el lado izquierdo */
+    width: 129px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin: auto;
+}
+
+.AcercaYo{
+    width: 25%;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: limegreen;
+    text-align: center;
+    border: 2px solid #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.AcercaAser{
+    width: 25%;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: limegreen;
+    text-align: center;
+    border: 2px solid #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+.AcercaInfo{
+    width: 25%;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: limegreen;
+    text-align: center;
+    border: 2px solid #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
